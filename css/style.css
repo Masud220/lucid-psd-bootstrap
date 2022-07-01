@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/lucid_onepage_source.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffff;
+    position: relative;
+    pad: 0;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ffff;
+}
+
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    right: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: .4s all ease-in-out;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover:after{
+    width: 47%;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 47%;
+}
+.care{
+    min-height: 90vh;
+    align-items: center;
+   
+ }
+.care h5{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+font-size: 16px;
+
+letter-spacing: 2px;
+}
+.care h1{
+    
+color: #ffff;
+    
+font-size: 50px;
+    
+margin: 25px 0;
+}
+.care p{
+    
+color: #737374;
+    
+
+}
+.btn-download{
+
+background-color: #008ed6;
+
+color: #ffff;
+
+font-size: 15px;
+
+padding: 0;
+
+padding: 15px 28px;
+
+margin-top: 65px;
+}
+.btn-features{
+
+background: transparent;
+
+color: #fff;
+
+border: 1px solid #999;
+
+padding: 0;
+
+padding: 14px 28px;
+
+margin-left: 20px;
+
+margin-top: 65px;
+}
+.mobile{
+
+position: absolute;
+
+bottom: 0;
+
+right: 11%;
+}
+.mobile img{
+    
+}
+.product{
+
+}
+.product h6{
+    
+color: #008ed6;
+    
+text-transform: uppercase;
+    
+font-size: 15px;
+    
+margin-bottom: 5px;
+}
+.product h3{
+    
+}
+.product span{
+    
+    background-color: blue;
+        
+    width: 60px;
+        
+    height: 2px;
+        
+    display: block;
+        
+    margin: auto;
+        
+    margin-top: 22px;
+    }
+
+.icon{
+
+margin: 20px;
+}
+.tv{
+
+width: 100px;
+
+height: 90px;
+
+font-size: 40px;
+
+border: 1px solid #9999;
+
+padding: 1px 0px;
+
+border-radius: 50px;
+
+display: flex;
+
+justify-content: space-around;
+
+margin: auto;
+
+align-items: center;
+}
+
+.icon h4{font-weight: 400;margin-top: 17px;margin-bottom: 13px;font-size: 23px;}
+
+.icon p{
+
+color: #999999;
+}
+.icon_section{
+    
+margin-top: 30px;
+}
+.iphone{
+
+}
+.mobile_my{
+
+}
+.mobile_1{
+
+margin-top: 40px;
+}
+.mobile_1 h6{
+    
+color: #0d6cf8;
+    
+text-transform: uppercase;
+    
+letter-spacing: 1px;
+    
+margin: 5px;
+}
+.mobile_1 h2{
+    
+
+}
+.mobile_1 span{
+    
+width: 60px;
+    
+height: 2px;
+    
+display: block;
+    
+background-color: blue;
+    
+margin: 25px 0;
+}
+.mobile_1 p{
+    
+color: #999999;
+}
+.icon_sec ul{
+    
+}
+.icon_sec ul li{
+    
+list-style: none;
+    
+line-height: 35px;
+}
+.icon_sec ul li i{
+    
+color: #0d6efd;
+    
+margin-right: 10px;
+}
+.icon_sec{
+    
+margin-top: 15px;
+}
+.Super_section{
+    background-color: #f2f2f2;
+}
+.easy{margin-top: 25px;}
+.easy h6{
+    
+color: #008ed6;
+    
+text-transform: uppercase;
+    
+letter-spacing: 1px;
+    
+/* margin-top: 25px; */
+}
+.easy h2{margin: 12px 0;}
+.easy span{
+    
+width: 50px;
+    
+height: 2px;
+    
+display: block;
+    
+background-color: #008ed6;
+    
+margin: 15px 0;
+}
+.easy p{
+    
+color: #999999;
+    
+font-size: 15px;
+}
+.mi_mobile{
+
+}
+.mi_mobile img{
+    
+}
+
+
+
+
+
+
+
+
